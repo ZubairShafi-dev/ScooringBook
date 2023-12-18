@@ -8,6 +8,10 @@ data class CaptainModel(
     val eDate: String,
     val totalInnings: Int,
     val totalWin: Int,
-    val totalLoss: Int
+    val totalLoss: Int,
+    val Awards: Int,
+    val tosswin: Int,
+    val tossloss: Int,
+
 
     )

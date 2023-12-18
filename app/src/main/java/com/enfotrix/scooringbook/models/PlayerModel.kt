@@ -1,5 +1,6 @@
 package com.enfotrix.scooringbook.models
 
+
 data class PlayerModel(
     val pID: String,
     val matches: String,
@@ -8,29 +9,26 @@ data class PlayerModel(
     val country: String,
     val city: String,
     val dob: String,
-    val plaqyingRole: String,
-    val jersuyNumber: String,
+    val playingRole: String,
+    val jerseyNumber: String,
     val height: String,
     val weight: String,
     val nickName: String,
-    val martialStatus: String,
+    val maritalStatus: String,
     val contactNumber: String,
-    val currenhtClub: String,
+    val currentClub: String,
     val awards: String,
-    val perferredFormat: String,
-    val laungages: String,
-    val teamRepresting: String,
+    val preferredFormat: String,
+    val languages: String,
+    val teamRepresenting: String,
     val tTen: String,
     val tTwenty: String,
     val odi: String,
     val others: String,
     val clubDs: String,
     val tournaments: String,
-    val captancyRole: String,
-    val wicketKeeperRole: String,
-    val totalCatches: String,
-    val stumpings: String,
-    val totalRunouts: String,
-
-    )
+    val wicketkeeperRole: String,
+    val wicketkeeperDetails: Wicketkeeper,
+    val captainDetails: CaptainModel
+)
 
